@@ -38,11 +38,11 @@ global.thumb = fs.readFileSync("./src/papah2.jpg")
 global.profil = fs.readFileSync("./src/papah.png")
 global.zippy = (await import('./lib/zippy.cjs')).zippy
 global.tiny = (await import('./lib/tiny.cjs')).default
-global.gc = "https://chat.whatsapp.com/KYIzgolOI1I66efv9UMfch"
-global.gh = "https://github.com/FahriAdison"
-global.yt = "https://bit.ly/Papah-Chan"
-global.wm = '                「 ꜱᴀᴅ BOT あ⁩ 」' 
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.gc = "https://chat.whatsapp.com/Jehdbxuxgd7$;"
+global.gh = "https://github.com/XienDaeMon"
+global.yt = "Error"
+global.wm = 'DaeMon' 
+global.wm2 = 'Owner Ganteng Rajin Ibadah'
 global.wm3 = '⫹⫺ Dae Mon Bot'
 function ucapan() {
 	var time = moment.tz('Asia/Jakarta').format('HH')
