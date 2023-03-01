@@ -8,7 +8,7 @@ var levelling = require('../lib/levelling.cjs')
 var moment = require('moment-timezone')
 var defaultMenu = {
 	before: `
-👋🏻 Halo kak %name
+Tod Ngen.. %name
 
 *Limit* : %limit
 *Role* : %role
@@ -406,7 +406,7 @@ var handler = async (m, {
 		}
 		text = await tiny(text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name]))
 		var pp = await conn.profilePictureUrl(conn.user.jid, 'image').catch(_ => './src/avatar_contact.png')
-		conn.sendHydrated(m.chat, text.trim(), 'Bot Papah-Chan', pp, 'https://github.com/FahriAdison', 'Github', null, null, [
+		conn.sendHydrated(m.chat, text.trim(), 'Sewa Bot Pm wa.me/6281269734000', pp, 'https://github.com/XienDaeMon', 'Github Owner', null, null, [
 			['Donate', '/donasi'],
 			['Speed', '/ping'],
 			['Owner', '/owner']
